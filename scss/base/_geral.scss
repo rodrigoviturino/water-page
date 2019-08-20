@@ -1,6 +1,7 @@
 /* Geral */
 body {
     height: 2000px;
+    @include type-1(16);
 }
 
 * {

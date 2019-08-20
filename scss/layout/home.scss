@@ -1,0 +1,33 @@
+.intro{
+    background: url('assets/img/bg-header.jpg') center;
+    background-repeat: no-repeat;
+    height: 426px;
+    width: 100%;
+    margin-top: 95px;
+    // padding-top: 141px;
+    display: flex;
+    align-items: center;
+
+    .group {
+        max-width: 415px;
+        text-align: left;
+
+
+        h1 {
+            color: #fff;
+            margin-bottom: 15px;
+            @include type-1(30);
+        }
+
+        p {
+            color: #fff;
+            @include type-1(16);
+            
+            @include media-breakpoint-only(xs) {
+                color: blue;
+                background-color: gray;
+            }
+        }
+    }
+
+}

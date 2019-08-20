@@ -1,10 +1,13 @@
 /* GRID Bootstrap 4 */
 @import 'grid';
 
+// @import "../assets/fonts/fonts.css";
+
 /* Base */
-@import 'base/geral';
 @import 'font/font';
+@import 'base/geral';
 
 /* Pages */
 @import 'header';
+@import 'layout/home';
 

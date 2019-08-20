@@ -1,6 +1,5 @@
-  @include media-breakpoint-only(xs) {
-            
-         }
+  sass --watch --sourcemap=none style.scss:../style.css
+  @include media-breakpoint-only(xs) {}
 
         @include media-breakpoint-only(sm) {
             
